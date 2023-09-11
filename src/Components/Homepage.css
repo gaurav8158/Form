@@ -1,0 +1,43 @@
+.nav-bar{
+    background-color: black;
+    color:white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.homepage-container{
+   width: 100vw;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+box-sizing: border-box;
+margin: 0;
+}
+.user{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.nav-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.homepage{
+    font-size: xx-large;
+    font-weight: 600;
+   
+}
+
+.foot-element{
+    width: 100vw;
+    position: absolute;
+    bottom: 0;
+    background-color: black;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    z-index: 1000;
+}

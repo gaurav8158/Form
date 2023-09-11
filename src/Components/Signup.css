@@ -1,0 +1,74 @@
+#root{
+  min-height: 100vh;
+}
+.main-box{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-container {
+  display: flex;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 800px;
+}
+.image-container {
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  width: 100%;
+  height: 650;
+  background-image: url("https://images.unsplash.com/photo-1557682260-96773eb01377?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cmVkJTIwb3JhbmdlfGVufDB8fDB8fHww&w=1000&q=80");
+  background-size: cover; /* Scale the background image to cover the entire div */
+  background-position: center; /* Center the background image */
+margin-right:10px ;
+}
+.form-signup{
+  padding: 1.2rem;
+}
+.image-container h1{
+padding:0px;
+margin:0px;
+}
+.sign-up-btn{
+    padding: 1rem 2.5rem;
+    border-radius: 1rem;
+    border:1px solid white;
+    background:none;
+    color:white;
+}
+.sign-up-btn:hover{
+    cursor: pointer;
+    border:1px solid blueviolet;
+}
+.name-box {
+  display: flex;
+  gap: 0.5rem;
+}
+.avtar-icon {
+  font-size: large;
+}
+.signuptag {
+  margin: 0;
+  padding: 1rem;
+  font-weight: 800;
+  font-size: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.avtar-icon {
+  display: flex;
+  justify-content: center;
+}
+.avtar-icon-box {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.signin-link {
+  display: flex;
+  justify-content: space-between;
+}
